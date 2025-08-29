@@ -19,5 +19,15 @@ int main() {
     }
     printf("\n");
     // Movimento da rainha
+    printf("Movimento do Cavalo:\n");
+    for (int i = 1; i <= 3; i++) {
+        while (i<3) {
+            printf("Baixo\n");
+            i++;
+        }
+        printf("Esquerda\n");
+        }
+    printf("\n");
+    // Movimento do cavalo
     return 0;
 }
